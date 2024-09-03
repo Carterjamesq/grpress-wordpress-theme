@@ -1,6 +1,6 @@
 # Custom Wordpress thme
 
-# [Your Theme Name]
+# GRPress Wordpress Teheme
 
 [Your Theme Name] is a custom WordPress theme designed to provide a [brief description of the theme’s purpose, e.g., "sleek and modern design for professional portfolios"].
 
