@@ -72,7 +72,7 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 
 ## Contributing
 
-If you would like to contribute to the development of this theme, please...
+If you would like to contribute to the development of this theme, please contact me.
 
 ## License
 
