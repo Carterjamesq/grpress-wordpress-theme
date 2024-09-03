@@ -1,1 +1,1 @@
-<p><?php _e( 'No content found', 'mytheme' ); ?></p>
+<p><?php _e( 'No content found', 'grpress' ); ?></p>

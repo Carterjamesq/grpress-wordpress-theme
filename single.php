@@ -13,14 +13,35 @@ get_header(); ?>
             <?php
             while ( have_posts() ) :
                 the_post();
-                
-                // Display the content of the post
-                the_content();
+                ?>
 
+                <!-- Display the post title -->
+                <header class="entry-header">
+                    <h1 class="entry-title"><?php the_title(); ?></h1>
+                </header><!-- .entry-header -->
+
+                <!-- Display the post thumbnail -->
+                <?php if ( has_post_thumbnail() ) : ?>
+                    <div class="entry-thumbnail">
+                        <?php
+                        // Display the post thumbnail with a link to the single post
+                        echo '<a href="' . esc_url(get_permalink()) . '">';
+                        the_post_thumbnail('large'); // You can change 'large' to any size you prefer
+                        echo '</a>';
+                        ?>
+                    </div><!-- .entry-thumbnail -->
+                <?php endif; ?>
+
+                <!-- Display the content of the post -->
+                <div class="entry-content">
+                    <?php the_content(); ?>
+                </div><!-- .entry-content -->
+
+                <?php
                 // Display post navigation
                 the_post_navigation( array(
-                    'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'mytheme' ) . '</span> <span class="nav-title">%title</span>',
-                    'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'mytheme' ) . '</span> <span class="nav-title">%title</span>',
+                    'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'grpress' ) . '</span> <span class="nav-title">%title</span>',
+                    'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'grpress' ) . '</span> <span class="nav-title">%title</span>',
                 ) );
 
                 // Load comments template if comments are open or there are comments
