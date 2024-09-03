@@ -87,7 +87,3 @@ If you would like to contribute to the development of this theme, please [provid
 
 This theme is free licensed.
 
-## Support
-
-For support and inquiries, please contact [Your Contact Information] or create an issue on [GitHub Repository URL].
-
