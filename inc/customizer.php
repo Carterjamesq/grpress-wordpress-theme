@@ -35,6 +35,10 @@ function mytheme_customize_register($wp_customize) {
         'default'   => '#0000ff',
         'transport' => 'refresh',
     ));
+    $wp_customize->add_setting('buttons_color', array(
+        'default'   => '#0000FF',
+        'transport' => 'refresh',
+    ));
     $wp_customize->add_setting('paragraph_color', array(
         'default'   => '#000000',
         'transport' => 'refresh',
@@ -95,6 +99,11 @@ function mytheme_customize_register($wp_customize) {
         'label'    => __('Link Color', 'mytheme'),
         'section'  => 'theme_colors',
         'settings' => 'link_color',
+    )));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'buttons_color', array(
+        'label'    => __('Buttons color', 'mytheme'),
+        'section'  => 'theme_colors',
+        'settings' => 'buttons_color',
     )));
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'paragraph_color', array(
         'label'    => __('Paragraph Color', 'mytheme'),
@@ -170,6 +179,9 @@ function mytheme_customizer_css() {
         }
         a {
             color: <?php echo get_theme_mod('link_color', '#0000ff'); ?>;
+        }
+        button {
+            background-color: <?php echo get_theme_mod('buttons_color', '#0000ff'); ?>;
         }
 
         .container {
