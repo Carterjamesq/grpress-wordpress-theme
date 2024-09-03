@@ -2,7 +2,7 @@
 
 # GRPress Wordpress Theme
 
-GRPress is a custom WordPress theme designed to provide a [brief description of the theme’s purpose, e.g., "sleek and modern design for professional portfolios"].
+GRPress is a custom WordPress theme designed to provide a sleek and modern design for modern websites on Wordpress"].
 
 ## Features
 
