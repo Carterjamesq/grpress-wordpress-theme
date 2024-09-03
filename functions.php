@@ -20,7 +20,7 @@ function enqueue_main_styles() {
     wp_enqueue_style('common-styles', get_template_directory_uri() . '/assets/css/common.css', array(), '1.0.0', 'all');
 
 
-    wp_enqueue_script('custom-script', get_template_directory_uri() . '/assets/js/filename', array('jquery'), null, true);
+    // wp_enqueue_script('custom-script', get_template_directory_uri() . '/assets/js/filename', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_main_styles');
 
