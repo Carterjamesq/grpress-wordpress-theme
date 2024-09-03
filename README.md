@@ -1,4 +1,4 @@
-# Custom Wordpress thme
+# Custom Wordpress theme
 
 # GRPress Wordpress Teheme
 
@@ -86,4 +86,3 @@ If you would like to contribute to the development of this theme, please [provid
 ## License
 
 This theme is free licensed.
-
