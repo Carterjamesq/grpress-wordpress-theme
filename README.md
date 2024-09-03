@@ -10,7 +10,6 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 - **Responsive Layout**: Looks great on all devices, from desktops to mobile phones.
 - **SEO Optimized**: Built with SEO best practices to help your site rank higher in search engines.
 - **Widget Areas**: Multiple widget-ready areas for easy content management.
-- **Translation Ready**: Supports localization with `.pot` file for translations.
 - **Custom Post Types**: [Include any custom post types or taxonomies your theme supports].
 
 ## Installation
@@ -43,11 +42,7 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
    - Create and configure pages from `Pages` in the WordPress Admin Dashboard.
    - Assign appropriate templates to pages if applicable.
 
-2. **Setting Up Custom Post Types**:
-
-   - [Provide instructions if your theme includes custom post types]
-
-3. **Adding Content**:
+2. **Adding Content**:
    - Use the WordPress editor to add and manage posts and pages.
 
 ## Theme Options
@@ -62,11 +57,7 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 
 ## Frequently Asked Questions
 
-1. **How do I update the theme?**
-
-   - [Instructions on updating the theme if necessary]
-
-2. **I see errors or issues with the theme. What should I do?**
+1. **I see errors or issues with the theme. What should I do?**
    - Check the [troubleshooting section or support documentation].
 
 ## Changelog
@@ -81,7 +72,7 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 
 ## Contributing
 
-If you would like to contribute to the development of this theme, please [provide contribution guidelines].
+If you would like to contribute to the development of this theme, please...
 
 ## License
 
