@@ -85,7 +85,7 @@ If you would like to contribute to the development of this theme, please [provid
 
 ## License
 
-This theme is licensed under the [License Name] License. See [LICENSE file] for more details.
+This theme is free licensed.
 
 ## Support
 
