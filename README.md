@@ -1,6 +1,6 @@
 # GRPress Wordpress Theme
 
-GRPress is a custom WordPress theme designed to provide a sleek and modern design for modern websites on Wordpress"].
+GRPress is a custom WordPress theme designed to provide a sleek and modern design for modern websites on Wordpress.
 
 ## Features
 
@@ -8,7 +8,6 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 - **Responsive Layout**: Looks great on all devices, from desktops to mobile phones.
 - **SEO Optimized**: Built with SEO best practices to help your site rank higher in search engines.
 - **Widget Areas**: Multiple widget-ready areas for easy content management.
-- **Custom Post Types**: [Include any custom post types or taxonomies your theme supports].
 
 ## Installation
 
