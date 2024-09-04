@@ -52,11 +52,6 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 - **Code Style**: Follow [coding standards or style guide] for PHP, HTML, CSS, and JavaScript.
 - **Scripts and Styles**: Enqueue scripts and styles in `functions.php`.
 
-## Frequently Asked Questions
-
-1. **I see errors or issues with the theme. What should I do?**
-   - Check the [troubleshooting section or support documentation].
-
 ## License
 
 This theme is free licensed.
