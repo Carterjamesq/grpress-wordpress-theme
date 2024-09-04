@@ -57,20 +57,6 @@ GRPress is a custom WordPress theme designed to provide a sleek and modern desig
 1. **I see errors or issues with the theme. What should I do?**
    - Check the [troubleshooting section or support documentation].
 
-## Changelog
-
-### [Version Number] – [Date]
-
-- [List of changes, new features, and fixes]
-
-### [Previous Version Number] – [Previous Date]
-
-- [List of changes, new features, and fixes]
-
-## Contributing
-
-If you would like to contribute to the development of this theme, please contact me.
-
 ## License
 
 This theme is free licensed.
