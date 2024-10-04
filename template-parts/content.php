@@ -1,3 +1,14 @@
+<?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package GRPress Wordpress Teheme
+ */
+
+?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <?php
@@ -24,4 +35,8 @@
         echo '<p>' . $excerpt . '</p>';
         ?>
     </div><!-- .entry-content -->
+
+    <footer class="entry-footer">
+		<?php wp_footer(); ?>
+	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
