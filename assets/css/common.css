@@ -57,6 +57,11 @@ button {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
 input,
 select,
 textarea {
@@ -71,6 +76,7 @@ textarea:focus {
   outline: 0;
   border-color: #007bff;
 }
+
 .text-right {
   text-align: right;
 }
