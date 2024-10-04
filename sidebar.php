@@ -1,7 +1,17 @@
-<?php get_header(); ?>
+<?php
+/**
+ * The sidebar containing the main widget area
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package GRPress
+ */
 
-<aside id="secondary" class="widget-area"> <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-    <?php dynamic_sidebar( 'sidebar-1' ); ?> <?php endif; ?> 
-</aside>
+if ( ! is_active_sidebar( 'sidebar' ) ) {
+	return;
+}
+?>
 
-<?php get_footer(); ?>
+<aside id="secondary" class="widget-area container">
+	<?php dynamic_sidebar( 'sidebar' ); ?>
+</aside><!-- #secondary -->

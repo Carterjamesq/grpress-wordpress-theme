@@ -50,3 +50,41 @@ function mytheme_setup() {
     ));
 }
 add_action('after_setup_theme', 'mytheme_setup');
+
+
+function grpress_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar', 'grpress' ),
+			'id'            => 'sidebar',
+			'description'   => esc_html__( 'Add widgets here.', 'grpress' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+        )
+	);
+    register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer', 'grpress' ),
+			'id'            => 'footer',
+			'description'   => esc_html__( 'Add widgets here.', 'grpress' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+        )
+	);
+    register_sidebar(
+		array(
+			'name'          => esc_html__( 'Navbar', 'grpress' ),
+			'id'            => 'navbar',
+			'description'   => esc_html__( 'Add widgets here.', 'grpress' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+        )
+	);
+}
+add_action( 'widgets_init', 'grpress_widgets_init' );

@@ -4,10 +4,11 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package GRPress Wordpress Teheme
+ * @package GRPress Wordpress Theme
  */
 
 ?>
+
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
@@ -31,7 +32,7 @@
     <div class="entry-content">
         <?php
         // Display the excerpt limited to 30 words
-        $excerpt = wp_trim_words(get_the_excerpt(), 15, '...');
+        $excerpt = wp_trim_words(get_the_excerpt(), 10, '...');
         echo '<p>' . $excerpt . '</p>';
         ?>
     </div><!-- .entry-content -->

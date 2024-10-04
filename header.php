@@ -8,8 +8,8 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <header id="masthead" class="site-header">
-        <div class="container">
+    <header id="masthead" class="site-header container">
+        <div class="navbar">
             <div class="site-branding">
                 <?php if (has_custom_logo()) : ?>
                     <div class="site-logo">
