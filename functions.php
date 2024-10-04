@@ -25,6 +25,14 @@ function enqueue_main_styles() {
 add_action('wp_enqueue_scripts', 'enqueue_main_styles');
 
 
+// This theme uses wp_nav_menu() in one location.
+register_nav_menus(
+    array(
+        'menu' => esc_html__( 'Primary', 'grpress' )
+    )
+);
+
+
 /**
  * Enqueue scripts and styles for front end.
  *

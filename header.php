@@ -21,7 +21,7 @@
                 <p class="site-description"><?php bloginfo('description'); ?></p>
             </div><!-- .site-branding -->
             <nav id="site-navigation" class="main-navigation">
-                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+                <?php wp_nav_menu(array('menu' => 'primary')); ?>
             </nav><!-- #site-navigation -->
         </div>
     </header><!-- #masthead -->
